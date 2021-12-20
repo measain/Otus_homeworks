@@ -1,2 +1,5 @@
 # Otus_homeworks
-Otus. Python Developer. Basic.
+  
+---  
+#### Всем привет!  
+В данном репозитории буду постить домашние задания, которые были выполнены в рамках курса "Python Developer. Basic."
