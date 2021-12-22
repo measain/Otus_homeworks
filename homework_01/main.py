@@ -1,10 +1,10 @@
-list_cube = list()
+list_cube = list()  # пустой список для последующего добавления в него квадратов аргументов переданных в функцию
 
-def power_numbers(*args):
-    for i in args:
+def power_numbers(*chislo):  # используем "*", так как неизвестно количество аргументов, которые будут передаваться в функцию
+    for i in chislo:
         cube = i **2
-        list_cube.append(cube)
-    print(list_cube)
+        list_cube.append(cube)  # в конце каждой итерации цикла в конец списка list_cube добавляется результат вычисления квадрата числа
+    print(list_cube)  # после всех итераций происходит вывод итогового списка на экран
 
 power_numbers(3,2,4)
 
