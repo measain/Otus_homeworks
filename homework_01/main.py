@@ -1,11 +1,9 @@
 list_cube = list()
 
 def power_numbers(*args):
-    vvod = args
-    for i in vvod:
+    for i in args:
         cube = i **2
         list_cube.append(cube)
-
     print(list_cube)
 
 power_numbers(3,2,4)
